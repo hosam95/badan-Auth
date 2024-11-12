@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e" pages="2">
     <diagram name="Page-1" id="pteTAIGlAc0p7t94jHmJ">
-        <mxGraphModel dx="734" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="450" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -667,8 +667,8 @@
                 <mxCell id="NCtWmSiecl5yez9ghkOs-66" value="Update Password page&lt;br&gt;( secret )" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;" parent="1" vertex="1">
                     <mxGeometry x="3492" y="670" width="198" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="NCtWmSiecl5yez9ghkOs-67" value="Refresh Token" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;" parent="1" vertex="1">
-                    <mxGeometry x="4500" y="290" width="120" height="60" as="geometry"/>
+                <mxCell id="NCtWmSiecl5yez9ghkOs-67" value="Refresh Token&lt;br&gt;( refresh token )" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+                    <mxGeometry x="4440" y="290" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="893AhtXTVMvV95dEvgP7-24" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;" edge="1" parent="1" source="NCtWmSiecl5yez9ghkOs-68" target="893AhtXTVMvV95dEvgP7-10">
                     <mxGeometry relative="1" as="geometry"/>
@@ -676,8 +676,11 @@
                 <mxCell id="NCtWmSiecl5yez9ghkOs-68" value="Promote Account&lt;br&gt;( account_id, token )" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;" parent="1" vertex="1">
                     <mxGeometry x="4060" y="290" width="210" height="60" as="geometry"/>
                 </mxCell>
+                <mxCell id="893AhtXTVMvV95dEvgP7-40" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;" edge="1" parent="1" source="NCtWmSiecl5yez9ghkOs-69" target="893AhtXTVMvV95dEvgP7-38">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="NCtWmSiecl5yez9ghkOs-69" value="Get users" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;" parent="1" vertex="1">
-                    <mxGeometry x="4678" y="290" width="120" height="60" as="geometry"/>
+                    <mxGeometry x="4770" y="290" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="3" value="server side process" style="swimlane;startSize=0;swimlaneFillColor=#47B347;fontStyle=0;align=left;fontSize=9;rounded=1;" parent="1" vertex="1">
                     <mxGeometry x="2115" y="387" width="321" height="213" as="geometry"/>
@@ -929,6 +932,49 @@
                 </mxCell>
                 <mxCell id="893AhtXTVMvV95dEvgP7-23" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;" edge="1" parent="893AhtXTVMvV95dEvgP7-10" source="893AhtXTVMvV95dEvgP7-19" target="893AhtXTVMvV95dEvgP7-17">
                     <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="893AhtXTVMvV95dEvgP7-25" value="server side process" style="swimlane;startSize=0;swimlaneFillColor=#47B347;fontStyle=0;align=left;fontSize=9;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="4380" y="387" width="320" height="333" as="geometry"/>
+                </mxCell>
+                <mxCell id="893AhtXTVMvV95dEvgP7-30" value="respond with error" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#5797D9;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="893AhtXTVMvV95dEvgP7-25">
+                    <mxGeometry x="150" y="99.57999999999998" width="130" height="53.12" as="geometry"/>
+                </mxCell>
+                <mxCell id="893AhtXTVMvV95dEvgP7-34" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="893AhtXTVMvV95dEvgP7-25" source="893AhtXTVMvV95dEvgP7-31" target="893AhtXTVMvV95dEvgP7-32">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="893AhtXTVMvV95dEvgP7-31" value="create new access and refresh tokens" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#5797D9;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="893AhtXTVMvV95dEvgP7-25">
+                    <mxGeometry x="17" y="160" width="133" height="53.12" as="geometry"/>
+                </mxCell>
+                <mxCell id="893AhtXTVMvV95dEvgP7-35" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="893AhtXTVMvV95dEvgP7-25" source="893AhtXTVMvV95dEvgP7-32" target="893AhtXTVMvV95dEvgP7-33">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="893AhtXTVMvV95dEvgP7-32" value="delete olde refresh token from DB and save the new one" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#5797D9;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="893AhtXTVMvV95dEvgP7-25">
+                    <mxGeometry x="145" y="225" width="159" height="53.12" as="geometry"/>
+                </mxCell>
+                <mxCell id="893AhtXTVMvV95dEvgP7-33" value="respond with the new tokens" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#5797D9;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="893AhtXTVMvV95dEvgP7-25">
+                    <mxGeometry x="19" y="282" width="119" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="893AhtXTVMvV95dEvgP7-37" value="" style="group;rounded=1;" vertex="1" connectable="0" parent="893AhtXTVMvV95dEvgP7-25">
+                    <mxGeometry x="18" y="6" width="130" height="91.29" as="geometry"/>
+                </mxCell>
+                <mxCell id="893AhtXTVMvV95dEvgP7-27" value="refreshToken&amp;nbsp;&lt;br&gt;is&lt;br&gt;valid in DB" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FF9999;fontColor=#333333;strokeColor=#666666;rounded=1;container=0;" vertex="1" parent="893AhtXTVMvV95dEvgP7-37">
+                    <mxGeometry width="130" height="91.29" as="geometry"/>
+                </mxCell>
+                <mxCell id="893AhtXTVMvV95dEvgP7-28" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="893AhtXTVMvV95dEvgP7-25" source="893AhtXTVMvV95dEvgP7-27" target="893AhtXTVMvV95dEvgP7-30">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="150.03999999999996" y="101.70000000000005" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="893AhtXTVMvV95dEvgP7-29" value="yes" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="893AhtXTVMvV95dEvgP7-25" source="893AhtXTVMvV95dEvgP7-27" target="893AhtXTVMvV95dEvgP7-31">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="58.039999999999964" y="140.70000000000005" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="893AhtXTVMvV95dEvgP7-38" value="server side process" style="swimlane;startSize=0;swimlaneFillColor=#47B347;fontStyle=0;align=left;fontSize=9;rounded=1;" vertex="1" parent="1">
+                    <mxGeometry x="4740" y="387" width="180" height="103" as="geometry"/>
+                </mxCell>
+                <mxCell id="893AhtXTVMvV95dEvgP7-39" value="Expect to get it from the package user" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;labelBackgroundColor=default;labelBorderColor=default;textShadow=1;fontSize=23;fontStyle=1;" vertex="1" parent="893AhtXTVMvV95dEvgP7-38">
+                    <mxGeometry x="11" y="6.299999999999727" width="157" height="90" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
