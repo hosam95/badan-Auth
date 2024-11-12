@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e" pages="2">
     <diagram name="Page-1" id="pteTAIGlAc0p7t94jHmJ">
-        <mxGraphModel dx="1055" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="734" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -643,6 +643,9 @@
                 <mxCell id="NCtWmSiecl5yez9ghkOs-62" value="Deactivate Account&lt;br&gt;( verification_secret )" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;" parent="1" vertex="1">
                     <mxGeometry x="2629.5" y="670" width="195" height="67" as="geometry"/>
                 </mxCell>
+                <mxCell id="Skj5eTbcGIHVLK_N4vuy-12" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="1" source="NCtWmSiecl5yez9ghkOs-63" target="PXjHn_q39L8ZtPXbcggN-10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
                 <mxCell id="NCtWmSiecl5yez9ghkOs-63" value="Edit account Data&lt;br&gt;( account_data, token )" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontSize=15;" parent="1" vertex="1">
                     <mxGeometry x="3060" y="290" width="190" height="60" as="geometry"/>
                 </mxCell>
@@ -770,11 +773,23 @@
                 <mxCell id="_U7U6Ivq2oCK15KBNmji-29" value="relocate the record/document to the deactivated accounts table/collection" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#5797D9;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="_U7U6Ivq2oCK15KBNmji-21">
                     <mxGeometry x="46.5" y="163" width="224.5" height="57" as="geometry"/>
                 </mxCell>
+                <mxCell id="PXjHn_q39L8ZtPXbcggN-10" value="server side process" style="swimlane;startSize=0;swimlaneFillColor=#47B347;fontStyle=0;align=left;fontSize=9;" vertex="1" parent="1">
+                    <mxGeometry x="3040" y="387" width="230" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="Skj5eTbcGIHVLK_N4vuy-11" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="PXjHn_q39L8ZtPXbcggN-10" source="PXjHn_q39L8ZtPXbcggN-11" target="Skj5eTbcGIHVLK_N4vuy-10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="PXjHn_q39L8ZtPXbcggN-11" value="delete any update_restricted properties like id | created_at |&amp;nbsp; is_active ...etc" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#5797D9;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="PXjHn_q39L8ZtPXbcggN-10">
+                    <mxGeometry x="16.25" y="12" width="197.5" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="Skj5eTbcGIHVLK_N4vuy-10" value="update the user in the database" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#5797D9;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="PXjHn_q39L8ZtPXbcggN-10">
+                    <mxGeometry x="63" y="107.00000000000006" width="104.07" height="53.12" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="CxpQJB-mhpuOJnPQDDZv" name="Page-2">
-        <mxGraphModel dx="1829" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1524" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
